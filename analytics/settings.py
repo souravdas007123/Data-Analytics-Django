@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'data_analytics',
     'import_export',
+    'django_seed',
 ]
 
 MIDDLEWARE = [
