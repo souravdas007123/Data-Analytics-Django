@@ -6,5 +6,5 @@ from import_export.admin import ImportExportModelAdmin
 
 @admin.register(Data)
 class DataAdmin(ImportExportModelAdmin,admin.ModelAdmin):
-    list_display=['id','first_name','last_name','age','salary']
+    list_display=['id','first_name','last_name','location','age','salary']
 
